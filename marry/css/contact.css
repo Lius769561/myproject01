@@ -1,0 +1,80 @@
+/*标题部分*/
+.main .contact{
+    margin: 10px 40px;
+}
+.main .contact .title{
+    margin-top: 130px;
+    position: relative;
+    height: 90px;
+}
+.main .contact .title h3{
+    text-align: center;
+    font-size: 33px;
+    width: 100%
+}
+.main .contact .title h4{
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+}
+.main .contact .title b{
+    position: absolute;
+    height: 4px;
+    display: block;
+    width: 10%;
+    top: 55px;
+    z-index: 10;
+}
+.main .contact .title h3 b:first-child{
+    background: #282828;
+    left: 40%;
+}
+.main .contact .title h3 b:last-child{
+    background: #dfcb7c;
+    right: 40%;
+}
+/*图片部分*/
+.main .contact .photo ul li{
+    float: left;
+    width: 393px;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+.main .contact .photo ul li b{
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.main .contact .photo ul li h5{
+    text-align: center;
+    font-size: 25px;
+    height: 20px;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+.main .contact .photo ul .co_01 b{
+    background: url("../images/co/co_1.jpg") no-repeat;
+}
+.main .contact .photo ul .co_02 b{
+    background: url("../images/co/co_2.jpg") no-repeat;
+}
+.main .contact .photo ul .co_03 b{
+    background: url("../images/co/co_3.jpg") no-repeat;
+}
+.main .contact .map{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.main .contact .map p{
+    display: block;
+    width: 200px;
+    height: auto;
+    font-size: 20px;
+    border: 1px solid red;
+    margin-left: 600px;
+}

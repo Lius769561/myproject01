@@ -1,0 +1,80 @@
+/*标题部分*/
+.main .workshow{
+    margin: 10px 40px;
+}
+.main .workshow .title{
+    margin-top: 130px;
+    position: relative;
+    height: 90px;
+}
+.main .workshow .title h3{
+    text-align: center;
+    font-size: 33px;
+    width: 100%
+}
+.main .workshow .title h4{
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+}
+.main .workshow .title b{
+    position: absolute;
+    height: 4px;
+    display: block;
+    width: 10%;
+    top: 55px;
+    z-index: 10;
+}
+.main .workshow .title h3 b:first-child{
+    background: #282828;
+    left: 40%;
+}
+.main .workshow .title h3 b:last-child{
+    background: #dfcb7c;
+    right: 40%;
+}
+/*图片部分*/
+.main .workshow .photo ul li{
+    float: left;
+    width: 393px;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+.main .workshow .photo ul li b{
+    display: block;
+    width: 393px;
+    height: 664px;
+    margin: 0 auto;
+}
+.main .workshow .photo ul li h5{
+    text-align: left;
+    font-size: 14px;
+    height: 20px;
+    padding-left: 20px;
+}
+.main .workshow .photo ul li p{
+    text-align: left;
+    font-size: 14px;
+    display: block;
+    height: 20px;
+    padding-left: 20px;
+}
+.main .workshow .photo ul .ws_01 b{
+    background: url("../images/ws/ws.1.jpg") no-repeat;
+}
+.main .workshow .photo ul .ws_02 b{
+    background: url("../images/ws/ws.2.jpg") no-repeat;
+}
+.main .workshow .photo ul .ws_03 b{
+    background: url("../images/ws/ws.3.jpg") no-repeat;
+}
+.main .workshow .photo ul .ws_04 b{
+    background: url("../images/ws/ws.4.jpg") no-repeat;
+}
+.main .workshow .photo ul .ws_05 b{
+    background: url("../images/ws/ws.5.jpg") no-repeat;
+}
+.main .workshow .photo ul .ws_06 b{
+    background: url("../images/ws/ws.6.jpg") no-repeat;
+}
+

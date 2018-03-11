@@ -1,0 +1,57 @@
+/*标题部分*/
+.main .activity{
+    margin: 10px 40px;
+}
+.main .activity .title{
+    margin-top: 130px;
+    position: relative;
+    height: 90px;
+}
+.main .activity .title h3{
+    text-align: center;
+    font-size: 33px;
+    width: 100%
+}
+.main .activity .title h4{
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+}
+.main .activity .title b{
+    position: absolute;
+    height: 4px;
+    display: block;
+    width: 10%;
+    top: 55px;
+    z-index: 10;
+}
+.main .activity .title h3 b:first-child{
+    background: #282828;
+    left: 40%;
+}
+.main .activity .title h3 b:last-child{
+    background: #dfcb7c;
+    right: 40%;
+}
+/*图片部分*/
+.main .activity .photo ul li{
+    width: 1200px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 60px;
+}
+.main .activity .photo ul li b{
+    display: block;
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+}
+.main .activity .photo ul .ac_01 b{
+    background: url("../images/ac/ac_1.jpg") no-repeat;
+}
+.main .activity .photo ul .ac_02 b{
+    background: url("../images/ac/ac_2.jpg") no-repeat;
+}
+.main .activity .photo ul .ac_03 b{
+    background: url("../images/ac/ac_3.jpg") no-repeat;
+}

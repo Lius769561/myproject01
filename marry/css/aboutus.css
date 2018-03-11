@@ -1,0 +1,72 @@
+/*标题部分*/
+.main .aboutus{
+    margin: 10px 40px;
+}
+.main .aboutus .title{
+    margin-top: 130px;
+    position: relative;
+    height: 90px;
+}
+.main .aboutus .title h3{
+    text-align: center;
+    font-size: 33px;
+    width: 100%
+}
+.main .aboutus .title h4{
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+}
+.main .aboutus .title b{
+    position: absolute;
+    height: 4px;
+    display: block;
+    width: 10%;
+    top: 55px;
+    z-index: 10;
+}
+.main .aboutus .title h3 b:first-child{
+    background: #282828;
+    left: 40%;
+}
+.main .aboutus .title h3 b:last-child{
+    background: #dfcb7c;
+    right: 40%;
+}
+/*内容部分*/
+.main .aboutus .as{
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.main .aboutus .as div>p{
+    font: "Microsoft YaHei";
+    font-size: 16px;
+    text-indent: 2em;
+    line-height: 25px;
+}
+.main .aboutus .as .item1{
+    width: 750px;
+    height: 600px;
+    margin-left: 10px;
+}
+.main .aboutus .as .item2{
+    width: 390px;
+    height: 120px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.main .aboutus .as .item3{
+    width: 390px;
+    height: 420px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.main .aboutus .as .item4,item5{
+    width: 1200px;
+    height: auto;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}

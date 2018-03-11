@@ -1,0 +1,108 @@
+/*标题部分*/
+.main .setprice{
+    margin: 10px 40px;
+}
+.main .setprice .title{
+    margin-top: 130px;
+    position: relative;
+    height: 90px;
+}
+.main .setprice .title h3{
+    text-align: center;
+    font-size: 33px;
+    width: 100%
+}
+.main .setprice .title h4{
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+}
+.main .setprice .title b{
+    position: absolute;
+    height: 4px;
+    display: block;
+    width: 10%;
+    top: 55px;
+    z-index: 10;
+}
+.main .setprice .title h3 b:first-child{
+    background: #282828;
+    left: 40%;
+}
+.main .setprice .title h3 b:last-child{
+    background: #dfcb7c;
+    right: 40%;
+}
+/*内容部分*/
+.main .setprice .item div{
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px; 
+}
+.main .setprice .item div b.sp_1,.sp_2,.sp_3{
+    display: block;
+    width: 755px;
+    height: 365px;
+}
+
+.main .setprice .item div .sp_1{
+    background: url("../images/sp/sp_1.jpg") no-repeat;
+}
+.main .setprice .item div .sp_2{
+    background: url("../images/sp/sp_2.jpg") no-repeat;
+}
+.main .setprice .item div .sp_3{
+    background: url("../images/sp/sp_3.jpg") no-repeat;
+}
+.main .setprice .item div ul li{
+    display: block;
+    width: 465px;
+    height: 40px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.main .setprice .item div ul li h3{ 
+    text-align: left;
+    font-size: 35px;
+    font-weight: bold;
+    height: 40px;
+}
+.main .setprice .item div ul li h3 b{
+    position: absolute;
+    height: 4px;
+    display: block;
+    z-index: 10;
+}
+.main .setprice .item ul li h3 b:nth-child(1){
+    background: #282828;
+    width: 4.7%;
+    left: 60.3%;
+}
+.main .setprice .item  ul li h3 b:nth-child(2){
+    background: #dfcb7c;
+    width: 19.6%;
+    right: 15.4%;
+}
+.main .setprice .item div ul li:nth-child(2){
+    border-bottom: 4px solid #000;
+}
+.main .setprice .item div ul li h4{
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+}
+.main .setprice .item div ul li h5{
+    text-align: left;
+    font-size: 15px;
+}
+.btn{
+    margin-right: 20px;
+    width: 100px;
+    height: 40px;
+    background: #dfcb7c;
+    font-weight: bold;
+    border-radius: 10px;
+    
+}

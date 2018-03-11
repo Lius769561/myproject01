@@ -1,0 +1,76 @@
+/*标题部分*/
+.main .loveshow{
+    margin: 10px 40px;
+}
+.main .loveshow .title{
+    margin-top: 130px;
+    position: relative;
+    height: 90px;
+}
+.main .loveshow .title h3{
+    text-align: center;
+    font-size: 33px;
+    width: 100%
+}
+.main .loveshow .title h4{
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+}
+.main .loveshow .title b{
+    position: absolute;
+    height: 4px;
+    display: block;
+    width: 10%;
+    top: 55px;
+    z-index: 10;
+}
+.main .loveshow .title h3 b:first-child{
+    background: #282828;
+    left: 40%;
+}
+.main .loveshow .title h3 b:last-child{
+    background: #dfcb7c;
+    right: 40%;
+}
+/*图片部分*/
+.main .loveshow .photo ul li{
+    float: left;
+    width: 393px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+.main .loveshow .photo ul li b{
+    display: block;
+    width: 396px;
+    height: 300px;
+    margin: 0 auto;
+}
+.main .loveshow .photo ul li p{
+    font-size: 25px;
+    display: block;
+    width: 336px;
+    height: 60px;
+    background-color: #ededed;
+    padding-top: 30px;
+    padding-left: 60px;
+}
+.main .loveshow .photo ul .ls_01 b{
+    background: url("../images/ls/ls_1.jpg") no-repeat;
+}
+.main .loveshow .photo ul .ls_02 b{
+    background: url("../images/ls/ls_2.jpg") no-repeat;
+}
+.main .loveshow .photo ul .ls_03 b{
+    background: url("../images/ls/ls_3.jpg") no-repeat;
+}
+.main .loveshow .photo ul .ls_04 b{
+    background: url("../images/ls/ls_4.jpg") no-repeat;
+}
+.main .loveshow .photo ul .ls_05 b{
+    background: url("../images/ls/ls_5.jpg") no-repeat;
+}
+.main .loveshow .photo ul .ls_06 b{
+    background: url("../images/ls/ls_6.jpg") no-repeat;
+}
